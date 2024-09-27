@@ -1,1 +1,1 @@
-sass --watch D:\Developer\wamp64\www\atlasConfiguracoes\scss\style.scss:D:\Developer\wamp64\www\atlasConfiguracoes\assets\css\style.css
+sass --watch D:\Developer\wamp64\www\atlasCarteira\scss\style.scss:D:\Developer\wamp64\www\atlasCarteira\assets\css\style.css

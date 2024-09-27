@@ -541,10 +541,6 @@ span.card-link {
   color: var(--cinza-claro);
   transition: all 0.3s ease;
 }
-.subtitle-p:hover {
-  text-decoration: none;
-  color: var(--laranja);
-}
 @media screen and (min-width: 1366px) {
   .subtitle-p {
     font-size: 1rem;

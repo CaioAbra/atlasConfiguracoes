@@ -593,11 +593,11 @@ span.card-link {
     color: var(--cinza-claro);
     transition: all .3s ease;
 
-    &:hover {
-        text-decoration: none;
-        color: var(--laranja);
-        ;
-    }
+    // &:hover {
+    //     text-decoration: none;
+    //     color: var(--laranja);
+        
+    // }
 
     @media screen and (min-width:1366px) {
         font-size: 1rem;
