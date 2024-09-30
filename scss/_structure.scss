@@ -755,9 +755,25 @@ label.fileInput {
     }
 }
 
-select.disabled {
+select.disabled ,input.disabled {
     background-color: var(--cinza) !important;
     color: var(--preto-medio) !important;
 }
+
+.verified-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--laranja); // Cor laranja para combinar com a imagem fornecida
+    font-size: 0.9rem;
+    // display: none; // Inicialmente oculto
+}
+
+input:disabled {
+    &.verified-label{
+        display: inline-block !important; // Mostrar apenas se o input estiver desabilitado
+    }
+}
+
 
 // @media screen and (min-width:769px) {}

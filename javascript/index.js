@@ -410,3 +410,16 @@ var options1 = {
 
 var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
 chart1.render();
+
+
+
+document.querySelectorAll('input').forEach((input) => {
+    input.addEventListener('change', function () {
+        const verifiedLabel = this.parentElement.querySelector('.verified-label');
+        if (this.disabled) {
+            verifiedLabel.style.display = 'inline-block';
+        } else {
+            verifiedLabel.style.display = 'none';
+        }
+    });
+});

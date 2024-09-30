@@ -665,9 +665,21 @@ label.fileInput {
   height: 14px;
 }
 
-select.disabled {
+select.disabled, input.disabled {
   background-color: var(--cinza) !important;
   color: var(--preto-medio) !important;
+}
+
+.verified-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--laranja);
+  font-size: 0.9rem;
+}
+
+input:disabled.verified-label {
+  display: inline-block !important;
 }
 
 .navbar {
