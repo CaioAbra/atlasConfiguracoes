@@ -665,11 +665,6 @@ label.fileInput {
   height: 14px;
 }
 
-select.disabled, input.disabled {
-  background-color: var(--cinza) !important;
-  color: var(--preto-medio) !important;
-}
-
 .verified-label {
   position: absolute;
   top: 0;
